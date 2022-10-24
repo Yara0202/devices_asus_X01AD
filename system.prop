@@ -5,6 +5,10 @@
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
 
+#Perf
+ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.perf.scroll_opt=true
+
 rild.libargs=-d /dev/smd0
 persist.rild.nitz_plmn=
 persist.rild.nitz_long_ons_0=
