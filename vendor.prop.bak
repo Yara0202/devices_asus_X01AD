@@ -74,13 +74,21 @@ debug.stagefright.omx_default_rank=0
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
 
+<<<<<<< HEAD
 # Display
 vendor.display.use_smooth_motion=1
 ro.opengles.version=196610
 debug.sf.disable_backpressure=0
 debug.cpurend.vsync=true
 debug.sf.disable_client_composition_cache=1
+=======
+# Display post-processing
+ro.vendor.display.cabl=0
+ro.vendor.display.sensortype=2
+debug.renderengine.backend=skiaglthreaded
+debug.cpurend.vsync=false
 debug.hwui.renderer=opengl
+>>>>>>> d5d15890 (onclite: Switch hwui renderer to OpenGL)
 
 # DRM
 drm.service.enabled=true
