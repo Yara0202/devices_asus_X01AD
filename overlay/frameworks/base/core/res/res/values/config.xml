@@ -572,6 +572,9 @@
     <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
     <bool name="config_zramWriteback">true</bool>
 
+     <!-- Max scale for the wallpaper when it is zoomed in. -->
+     <item name="config_wallpaperMaxScale" format="float" type="dimen">1</item>
+
     <!-- Flag indicating whether the surface flinger has limited
          alpha compositing functionality in hardware.  If set, the window
          manager will disable alpha trasformation in animations where not
