@@ -85,6 +85,7 @@ on post-fs-data
     mkdir /data/vendor/focaltech 0760 system system
     restorecon /data/vendor/focaltech
 
+on boot
     # Tap to wake node
     chown system system /proc/tpd_gesture
     chmod 0660 /proc/tpd_gesture
