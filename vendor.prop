@@ -74,6 +74,7 @@ debug.stagefright.omx_default_rank=0
 
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
+ro.hwui.render_ahead=10
 
 # Display
 vendor.display.use_smooth_motion=1
