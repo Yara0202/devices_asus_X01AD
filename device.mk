@@ -17,6 +17,8 @@
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/asus/X01AD/X01AD-vendor.mk)
 
+PRODUCT_COMPRESSED_APEX := false
+
 # APEX
 PRODUCT_PRODUCT_PROPERTIES += ro.apex.updatable=false
 
